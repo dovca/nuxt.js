@@ -1,7 +1,7 @@
 {
-  "name": "@nuxt/utils",
-  "version": "2.15.6",
-  "repository": "nuxt/nuxt.js",
+  "name": "@dovca/nuxt-utils",
+  "version": "2.15.7",
+  "repository": "dovca/nuxt.js",
   "license": "MIT",
   "main": "dist/utils.js",
   "files": [

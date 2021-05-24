@@ -1,8 +1,8 @@
 {
-  "name": "@nuxt/types",
-  "version": "2.15.6",
+  "name": "@dovca/nuxt-types",
+  "version": "2.15.7",
   "description": "Nuxt types",
-  "repository": "nuxt/nuxt.js",
+  "repository": "dovca/nuxt.js",
   "license": "MIT",
   "main": "index.js",
   "types": "index.d.ts",

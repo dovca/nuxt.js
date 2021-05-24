@@ -1,7 +1,7 @@
 {
-  "name": "@nuxt/cli",
-  "version": "2.15.6",
-  "repository": "nuxt/nuxt.js",
+  "name": "@dovca/nuxt-cli",
+  "version": "2.15.7",
+  "repository": "dovca/nuxt.js",
   "license": "MIT",
   "main": "dist/cli.js",
   "bin": {
@@ -12,8 +12,8 @@
     "dist"
   ],
   "dependencies": {
-    "@nuxt/config": "2.15.6",
-    "@nuxt/utils": "2.15.6",
+    "@dovca/nuxt-config": "2.15.7",
+    "@dovca/nuxt-utils": "2.15.7",
     "boxen": "^5.0.1",
     "chalk": "^4.1.1",
     "compression": "^1.7.4",

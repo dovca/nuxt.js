@@ -1,16 +1,16 @@
 {
-  "name": "@nuxt/core",
-  "version": "2.15.6",
-  "repository": "nuxt/nuxt.js",
+  "name": "@dovca/nuxt-core",
+  "version": "2.15.7",
+  "repository": "dovca/nuxt.js",
   "license": "MIT",
   "main": "dist/core.js",
   "files": [
     "dist"
   ],
   "dependencies": {
-    "@nuxt/config": "2.15.6",
-    "@nuxt/server": "2.15.6",
-    "@nuxt/utils": "2.15.6",
+    "@dovca/nuxt-config": "2.15.7",
+    "@dovca/nuxt-server": "2.15.7",
+    "@dovca/nuxt-utils": "2.15.7",
     "consola": "^2.15.3",
     "fs-extra": "^9.1.0",
     "hable": "^3.0.0",
