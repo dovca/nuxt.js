@@ -3,7 +3,7 @@
   "version": "2.15.8",
   "repository": "dovca/nuxt.js",
   "license": "MIT",
-  "main": "dist/cli.js",
+  "main": "dist/nuxt-cli.js",
   "bin": {
     "nuxt-cli": "bin/nuxt-cli.js"
   },

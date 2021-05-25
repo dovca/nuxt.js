@@ -3,7 +3,7 @@
   "version": "2.15.8",
   "repository": "dovca/nuxt.js",
   "license": "MIT",
-  "main": "dist/generator.js",
+  "main": "dist/nuxt-generator.js",
   "files": [
     "dist"
   ],

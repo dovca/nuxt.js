@@ -3,7 +3,7 @@
   "version": "2.15.8",
   "repository": "dovca/nuxt.js",
   "license": "MIT",
-  "main": "dist/builder.js",
+  "main": "dist/nuxt-builder.js",
   "files": [
     "dist"
   ],
