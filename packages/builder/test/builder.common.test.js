@@ -1,10 +1,10 @@
-import { BundleBuilder } from '@nuxt/webpack'
+import { BundleBuilder } from '@dovca/nuxt-webpack'
 
 import Builder from '../src/builder'
 import BuildContext from '../src/context/build'
 import { createNuxt } from './__utils__'
 
-jest.mock('@nuxt/webpack', () => ({
+jest.mock('@dovca/nuxt-webpack', () => ({
   BundleBuilder: jest.fn(function () {
     this.name = 'webpack_builder'
   })

@@ -2,8 +2,8 @@ import path from 'path'
 import chokidar from 'chokidar'
 import upath from 'upath'
 import { debounce } from 'lodash'
-import { r, isString, isPureObject } from '@nuxt/utils'
-import { BundleBuilder } from '@nuxt/webpack'
+import { r, isString, isPureObject } from '@dovca/nuxt-utils'
+import { BundleBuilder } from '@dovca/nuxt-webpack'
 import Builder from '../src/builder'
 import { createNuxt } from './__utils__'
 
@@ -17,8 +17,8 @@ jest.mock('chokidar', () => ({
   close: jest.fn().mockReturnThis()
 }))
 jest.mock('upath', () => ({ normalizeSafe: jest.fn(src => src) }))
-jest.mock('@nuxt/utils')
-jest.mock('@nuxt/webpack')
+jest.mock('@dovca/nuxt-utils')
+jest.mock('@dovca/nuxt-webpack')
 jest.mock('../src/ignore')
 
 describe('builder: builder watch', () => {

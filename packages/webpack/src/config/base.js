@@ -12,7 +12,7 @@ import env from 'std-env'
 import semver from 'semver'
 import { isRelative } from 'ufo'
 
-import { TARGETS, isUrl, urlJoin, getPKG, tryResolve, requireModule, resolveModule } from '@nuxt/utils'
+import { TARGETS, isUrl, urlJoin, getPKG, tryResolve, requireModule, resolveModule } from '@dovca/nuxt-utils'
 
 import PerfLoader from '../utils/perf-loader'
 import StyleLoader from '../utils/style-loader'
@@ -135,7 +135,7 @@ export default class WebpackBaseConfig {
       corejsVersion = 2
     }
 
-    const defaultPreset = [this.resolveModule('@nuxt/babel-preset-app'), {
+    const defaultPreset = [this.resolveModule('@dovca/nuxt-babel-preset-app'), {
       corejs: {
         version: corejsVersion
       }
@@ -231,8 +231,8 @@ export default class WebpackBaseConfig {
       this.buildContext.options.rootDir,
       __dirname,
       ...(global.__NUXT_PATHS__ || []),
-      resolveModule('@nuxt/vue-app'),
-      resolveModule('@nuxt/babel-preset-app')
+      resolveModule('@dovca/nuxt-vue-app'),
+      resolveModule('@dovca/nuxt-babel-preset-app')
     ]
     const resolvePlugins = [PnpWebpackPlugin].concat(resolvePath.map(p => PnpWebpackPlugin.moduleLoader(p)))
 

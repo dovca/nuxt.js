@@ -14,8 +14,8 @@ jest.mock('std-env', () => ({
   linux: true
 }))
 
-jest.mock('@nuxt/utils', () => ({
-  ...jest.requireActual('@nuxt/utils'),
+jest.mock('@dovca/nuxt-utils', () => ({
+  ...jest.requireActual('@dovca/nuxt-utils'),
   getMainModule: () => ({ paths: ['/var/nuxt/node_modules'] }),
   getPKG: () => ({ name: 'fake' })
 }))
@@ -257,24 +257,24 @@ describe('config: options', () => {
       const { build: { babel } } = getNuxtConfig({
         build: { babel: { presets: ['@nuxtjs/babel-preset-app'] } }
       })
-      expect(consola.warn).toHaveBeenCalledWith('@nuxtjs/babel-preset-app has been deprecated, please use @nuxt/babel-preset-app.')
+      expect(consola.warn).toHaveBeenCalledWith('@nuxtjs/babel-preset-app has been deprecated, please use @dovca/nuxt-babel-preset-app.')
       expect(babel).toEqual({
         configFile: false,
         babelrc: false,
         cacheDirectory: false,
-        presets: ['@nuxt/babel-preset-app']
+        presets: ['@dovca/nuxt-babel-preset-app']
       })
     })
 
     test('should support options in babel presets', () => {
       const { build: { babel } } = getNuxtConfig({
-        build: { babel: { presets: [['@nuxt/babel-preset-app', { test: true }]] } }
+        build: { babel: { presets: [['@dovca/nuxt-babel-preset-app', { test: true }]] } }
       })
       expect(babel).toEqual({
         configFile: false,
         babelrc: false,
         cacheDirectory: false,
-        presets: [['@nuxt/babel-preset-app', { test: true }]]
+        presets: [['@dovca/nuxt-babel-preset-app', { test: true }]]
       })
     })
   })

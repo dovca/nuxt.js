@@ -1,7 +1,7 @@
 import Glob from 'glob'
 import consola from 'consola'
-import { isIndexFileAndFolder } from '@nuxt/utils'
-import { BundleBuilder } from '@nuxt/webpack'
+import { isIndexFileAndFolder } from '@dovca/nuxt-utils'
+import { BundleBuilder } from '@dovca/nuxt-webpack'
 
 import Builder from '../src/builder'
 import { createNuxt } from './__utils__'
@@ -9,9 +9,9 @@ import { createNuxt } from './__utils__'
 jest.mock('glob')
 jest.mock('pify', () => fn => fn)
 jest.mock('hash-sum', () => src => `hash(${src})`)
-jest.mock('@nuxt/utils')
+jest.mock('@dovca/nuxt-utils')
 jest.mock('../src/ignore')
-jest.mock('@nuxt/webpack')
+jest.mock('@dovca/nuxt-webpack')
 
 describe('builder: builder plugins', () => {
   beforeEach(() => {

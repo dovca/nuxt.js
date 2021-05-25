@@ -1,17 +1,17 @@
 import path from 'path'
 import consola from 'consola'
 import fsExtra from 'fs-extra'
-import { r, waitFor } from '@nuxt/utils'
-import { BundleBuilder } from '@nuxt/webpack'
+import { r, waitFor } from '@dovca/nuxt-utils'
+import { BundleBuilder } from '@dovca/nuxt-webpack'
 
 import Builder from '../src/builder'
 import { createNuxt } from './__utils__'
 
 jest.mock('fs-extra')
 jest.mock('hash-sum', () => src => `hash(${src})`)
-jest.mock('@nuxt/utils')
+jest.mock('@dovca/nuxt-utils')
 jest.mock('../src/ignore')
-jest.mock('@nuxt/webpack')
+jest.mock('@dovca/nuxt-webpack')
 
 describe('builder: builder build', () => {
   beforeAll(() => {

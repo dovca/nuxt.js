@@ -1,7 +1,7 @@
 import chalk from 'chalk'
 import consola from 'consola'
 import fsExtra from 'fs-extra'
-import { waitFor } from '@nuxt/utils'
+import { waitFor } from '@dovca/nuxt-utils'
 
 import Generator from '../src/generator'
 import { createNuxt } from './__utils__'
@@ -12,7 +12,7 @@ jest.mock('chalk', () => ({
   grey: jest.fn(str => `grey:${str}`)
 }))
 jest.mock('fs-extra')
-jest.mock('@nuxt/utils')
+jest.mock('@dovca/nuxt-utils')
 
 describe('generator: generate routes', () => {
   beforeEach(() => {

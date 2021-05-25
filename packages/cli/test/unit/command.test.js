@@ -5,13 +5,13 @@ import * as config from '../../src/utils/config'
 import * as constants from '../../src/utils/constants'
 import { consola, localPath } from '../utils'
 
-jest.mock('@nuxt/core')
-jest.mock('@nuxt/builder')
-jest.mock('@nuxt/generator')
+jest.mock('@dovca/nuxt-core')
+jest.mock('@dovca/nuxt-builder')
+jest.mock('@dovca/nuxt-generator')
 
-jest.mock(localPath('@nuxt/core'))
-jest.mock(localPath('@nuxt/builder'))
-jest.mock(localPath('@nuxt/generator'))
+jest.mock(localPath('@dovca/nuxt-core'))
+jest.mock(localPath('@dovca/nuxt-builder'))
+jest.mock(localPath('@dovca/nuxt-generator'))
 
 const allOptions = {
   ...common,

@@ -1,5 +1,5 @@
-import { getDefaultNuxtConfig } from '@nuxt/config'
-import { TARGETS } from '@nuxt/utils'
+import { getDefaultNuxtConfig } from '@dovca/nuxt-config'
+import { TARGETS } from '@dovca/nuxt-utils'
 import { consola } from '../utils'
 import { loadNuxtConfig } from '../../src/utils/config'
 import * as utils from '../../src/utils'

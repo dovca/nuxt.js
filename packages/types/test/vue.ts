@@ -1,6 +1,6 @@
 /**
  * Test extended type definitions of Vue interfaces
- * @nuxt/types/app/vue.d.ts
+ * @dovca/nuxt-types/app/vue.d.ts
  */
 
 import Vue, { ComponentOptions } from 'vue'

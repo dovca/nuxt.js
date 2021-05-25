@@ -1,6 +1,6 @@
 {
   "$schema": "http://json.schemastore.org/web-types",
-  "name": "@nuxt/vue-app",
+  "name": "@dovca/nuxt-vue-app",
   "framework": "vue",
   "version": "2.13.1",
   "contributions": {

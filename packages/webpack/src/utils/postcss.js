@@ -4,7 +4,7 @@ import consola from 'consola'
 import { defaults, merge, cloneDeep } from 'lodash'
 import createResolver from 'postcss-import-resolver'
 
-import { isPureObject } from '@nuxt/utils'
+import { isPureObject } from '@dovca/nuxt-utils'
 
 export const orderPresets = {
   cssnanoLast (names) {

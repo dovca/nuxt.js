@@ -1,4 +1,4 @@
-import { MODES, TARGETS } from '@nuxt/utils'
+import { MODES, TARGETS } from '@dovca/nuxt-utils'
 import * as utils from '../../src/utils'
 import { mockGetNuxt, mockGetBuilder, mockGetGenerator, NuxtCommand } from '../utils'
 

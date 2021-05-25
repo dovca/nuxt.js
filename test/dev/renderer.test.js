@@ -1,5 +1,5 @@
 import consola from 'consola'
-import { MODES } from '@nuxt/utils'
+import { MODES } from '@dovca/nuxt-utils'
 import { Nuxt } from '../utils'
 
 const NO_BUILD_MSG = /Use either `nuxt build` or `builder\.build\(\)` or start nuxt in development mode/

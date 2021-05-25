@@ -3,8 +3,8 @@ import lodash from 'lodash'
 import Glob from 'glob'
 import fs from 'fs-extra'
 import consola from 'consola'
-import { r, createRoutes, stripWhitespace } from '@nuxt/utils'
-import { BundleBuilder } from '@nuxt/webpack'
+import { r, createRoutes, stripWhitespace } from '@dovca/nuxt-utils'
+import { BundleBuilder } from '@dovca/nuxt-webpack'
 import Builder from '../src/builder'
 import TemplateContext from '../src/context/template'
 import { createNuxt } from './__utils__'
@@ -16,12 +16,12 @@ jest.mock('lodash', () => ({
 }))
 jest.mock('pify', () => fn => fn)
 jest.mock('fs-extra')
-jest.mock('@nuxt/utils')
+jest.mock('@dovca/nuxt-utils')
 jest.mock('../src/context/template', () => jest.fn())
 jest.mock('../src/ignore', () => function () {
   this.filter = jest.fn(files => files)
 })
-jest.mock('@nuxt/webpack')
+jest.mock('@dovca/nuxt-webpack')
 
 describe('builder: builder generate', () => {
   beforeAll(() => {

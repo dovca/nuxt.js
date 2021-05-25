@@ -3,7 +3,7 @@ import fresh from 'fresh'
 import consola from 'consola'
 import { normalizeURL } from 'ufo'
 
-import { getContext, TARGETS } from '@nuxt/utils'
+import { getContext, TARGETS } from '@dovca/nuxt-utils'
 
 export default ({ options, nuxt, renderRoute, resources }) => async function nuxtMiddleware (req, res, next) {
   // Get context

@@ -55,8 +55,8 @@ describe('basic config defaults', () => {
         }
       }
     })
-    expect(options.build.babel.presets).toEqual(['@nuxt/babel-preset-app'])
-    expect(consola.warn).toHaveBeenCalledWith('@nuxtjs/babel-preset-app has been deprecated, please use @nuxt/babel-preset-app.')
+    expect(options.build.babel.presets).toEqual(['@dovca/nuxt-babel-preset-app'])
+    expect(consola.warn).toHaveBeenCalledWith('@nuxtjs/babel-preset-app has been deprecated, please use @dovca/nuxt-babel-preset-app.')
 
     consola.warn.mockClear()
 
@@ -67,7 +67,7 @@ describe('basic config defaults', () => {
         }
       }
     })
-    expect(options.build.babel.presets).toEqual([['@nuxt/babel-preset-app']])
-    expect(consola.warn).toHaveBeenCalledWith('@nuxtjs/babel-preset-app has been deprecated, please use @nuxt/babel-preset-app.')
+    expect(options.build.babel.presets).toEqual([['@dovca/nuxt-babel-preset-app']])
+    expect(consola.warn).toHaveBeenCalledWith('@nuxtjs/babel-preset-app has been deprecated, please use @dovca/nuxt-babel-preset-app.')
   })
 })

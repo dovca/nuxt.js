@@ -1,12 +1,12 @@
 import consola from 'consola'
-import { template as VueAppTemplate } from '@nuxt/vue-app'
-import { relativeTo, determineGlobals } from '@nuxt/utils'
+import { template as VueAppTemplate } from '@dovca/nuxt-vue-app'
+import { relativeTo, determineGlobals } from '@dovca/nuxt-utils'
 
 import Builder from '../src/builder'
 import { createNuxt } from './__utils__'
 
-jest.mock('@nuxt/vue-app')
-jest.mock('@nuxt/utils')
+jest.mock('@dovca/nuxt-vue-app')
+jest.mock('@dovca/nuxt-utils')
 jest.mock('../src/ignore')
 
 describe('builder: builder constructor', () => {

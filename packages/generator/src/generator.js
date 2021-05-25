@@ -8,7 +8,7 @@ import htmlMinifier from 'html-minifier'
 import { parse } from 'node-html-parser'
 import { withTrailingSlash, withoutTrailingSlash } from 'ufo'
 
-import { isFullStatic, flatRoutes, isString, isUrl, promisifyRoute, urlJoin, waitFor, requireModule } from '@nuxt/utils'
+import { isFullStatic, flatRoutes, isString, isUrl, promisifyRoute, urlJoin, waitFor, requireModule } from '@dovca/nuxt-utils'
 
 export default class Generator {
   constructor (nuxt, builder) {

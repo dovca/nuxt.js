@@ -18,12 +18,12 @@ export default {
     '@nuxt/loading-screen',
     '@nuxt/telemetry',
     // Distro
-    '@nuxt/babel-preset-app',
-    '@nuxt/config',
-    '@nuxt/server',
-    '@nuxt/utils',
-    '@nuxt/vue-app',
-    '@nuxt/vue-renderer',
-    '@nuxt/webpack'
+    '@dovca/nuxt-babel-preset-app',
+    '@dovca/nuxt-config',
+    '@dovca/nuxt-server',
+    '@dovca/nuxt-utils',
+    '@dovca/nuxt-vue-app',
+    '@dovca/nuxt-vue-renderer',
+    '@dovca/nuxt-webpack'
   ]
 }

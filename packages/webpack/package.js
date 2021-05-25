@@ -1,7 +1,7 @@
 export default {
   build: true,
   ignoreUnused: [
-    '@nuxt/babel-preset-app',
+    '@dovca/nuxt-babel-preset-app',
     '@babel/core', // peerDependency of babel-loader
     'babel-loader',
     'cache-loader',

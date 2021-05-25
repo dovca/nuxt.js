@@ -1,5 +1,5 @@
 import consola from 'consola'
-import { MODES, TARGETS } from '@nuxt/utils'
+import { MODES, TARGETS } from '@dovca/nuxt-utils'
 import { common, locking } from '../options'
 import { createLock } from '../utils'
 

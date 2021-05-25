@@ -5,7 +5,7 @@ import consola from 'consola'
 import Package from './package.js'
 
 const useCjs = [
-  '@nuxt/cli'
+  '@dovca/nuxt-cli'
 ]
 
 const stub = {

@@ -1,6 +1,6 @@
 import { capitalize } from 'lodash'
 import env from 'std-env'
-import { TARGETS } from '@nuxt/utils'
+import { TARGETS } from '@dovca/nuxt-utils'
 
 export default () => ({
   // Env

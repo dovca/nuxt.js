@@ -1,5 +1,5 @@
 import { promises as fs } from 'fs'
-import { TARGETS } from '@nuxt/utils'
+import { TARGETS } from '@dovca/nuxt-utils'
 import * as utils from '../../src/utils/'
 import { consola, mockNuxt, mockGetNuxtConfig, NuxtCommand } from '../utils'
 

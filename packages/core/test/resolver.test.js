@@ -1,13 +1,13 @@
 import path from 'path'
 import fs from 'fs-extra'
 import consola from 'consola'
-import { startsWithRootAlias, startsWithSrcAlias } from '@nuxt/utils'
+import { startsWithRootAlias, startsWithSrcAlias } from '@dovca/nuxt-utils'
 
 import Resolver from '../src/resolver'
 
 jest.mock('fs-extra')
-jest.mock('@nuxt/utils', () => ({
-  ...jest.requireActual('@nuxt/utils'),
+jest.mock('@dovca/nuxt-utils', () => ({
+  ...jest.requireActual('@dovca/nuxt-utils'),
   startsWithRootAlias: jest.fn(),
   startsWithSrcAlias: jest.fn()
 }))

@@ -1,11 +1,11 @@
 import consola from 'consola'
 import onHeaders from 'on-headers'
-import { Timer } from '@nuxt/utils'
+import { Timer } from '@dovca/nuxt-utils'
 
 import createTimingMiddleware from '../../src/middleware/timing'
 
 jest.mock('on-headers')
-jest.mock('@nuxt/utils')
+jest.mock('@dovca/nuxt-utils')
 
 const createServerContext = () => ({
   req: {},

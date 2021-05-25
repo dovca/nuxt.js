@@ -1,6 +1,6 @@
 import consola from 'consola'
 import { satisfies } from 'semver'
-import { getPKG } from '@nuxt/utils'
+import { getPKG } from '@dovca/nuxt-utils'
 
 const dependencies = {
   webpack: '^4.46.0',

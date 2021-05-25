@@ -7,7 +7,7 @@ import { createNuxt, hookCalls } from './__utils__'
 
 jest.mock('fs-extra')
 jest.mock('html-minifier')
-jest.mock('@nuxt/utils')
+jest.mock('@dovca/nuxt-utils')
 
 describe('generator: generate route', () => {
   beforeEach(() => {

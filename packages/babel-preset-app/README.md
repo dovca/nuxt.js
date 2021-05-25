@@ -1,4 +1,4 @@
-# `@nuxt/babel-preset-app`
+# `@dovca/nuxt-babel-preset-app`
 
 > Default babel preset for nuxt
 
@@ -23,7 +23,7 @@ Usually, no additional configuration is required. If needed though, there is an 
 babel: {
   presets(env, [ preset, options ]) {
     return [
-      [ "@nuxt/babel-preset-app", options ]
+      [ "@dovca/nuxt-babel-preset-app", options ]
     ]
   }
 }
@@ -31,7 +31,7 @@ babel: {
 
 `env` is an object which contains `envName` (`server`, `client`, `modern`) and all `nuxtEnv` properties (`isDev`, `isServer`, `isClient`, `isModern`, `isLegacy`)
 
-`preset` is the preset package name `@nuxt/babel-preset-app`
+`preset` is the preset package name `@dovca/nuxt-babel-preset-app`
 
 `options` is an object with parameters, for example:
 
@@ -79,7 +79,7 @@ export default {
         }
         return [
           [
-            "@nuxt/babel-preset-app",
+            "@dovca/nuxt-babel-preset-app",
             {
               targets: envTargets[envName]
             }
@@ -107,7 +107,7 @@ export default {
       presets({ envName }) {
         return [
           [
-            '@nuxt/babel-preset-app',
+            '@dovca/nuxt-babel-preset-app',
             {
               corejs: { version: 3 }
             }

@@ -1,6 +1,6 @@
-import { defineAlias } from '@nuxt/utils'
-import { getNuxtConfig } from '@nuxt/config'
-import { Server } from '@nuxt/server'
+import { defineAlias } from '@dovca/nuxt-utils'
+import { getNuxtConfig } from '@dovca/nuxt-config'
+import { Server } from '@dovca/nuxt-server'
 import Hookable from 'hable'
 
 import Nuxt from '../src/nuxt'
@@ -8,11 +8,11 @@ import ModuleContainer from '../src/module'
 import Resolver from '../src/resolver'
 import { version } from '../package.json'
 
-jest.mock('@nuxt/utils')
+jest.mock('@dovca/nuxt-utils')
 
-jest.mock('@nuxt/server')
+jest.mock('@dovca/nuxt-server')
 
-jest.mock('@nuxt/config', () => ({
+jest.mock('@dovca/nuxt-config', () => ({
   getNuxtConfig: jest.fn(() => ({
     _ready: false
   }))

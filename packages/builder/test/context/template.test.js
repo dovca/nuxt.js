@@ -3,7 +3,7 @@ import consola from 'consola'
 import serialize from 'serialize-javascript'
 
 import devalue from '@nuxt/devalue'
-import { r, wp, wChunk, serializeFunction } from '@nuxt/utils'
+import { r, wp, wChunk, serializeFunction } from '@dovca/nuxt-utils'
 import TemplateContext from '../../src/context/template'
 
 jest.mock('lodash', () => ({

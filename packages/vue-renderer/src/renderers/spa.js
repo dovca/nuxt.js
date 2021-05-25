@@ -4,7 +4,7 @@ import VueMeta from 'vue-meta'
 import { createRenderer } from 'vue-server-renderer'
 import LRU from 'lru-cache'
 import devalue from '@nuxt/devalue'
-import { TARGETS, isModernRequest } from '@nuxt/utils'
+import { TARGETS, isModernRequest } from '@dovca/nuxt-utils'
 import BaseRenderer from './base'
 
 export default class SPARenderer extends BaseRenderer {

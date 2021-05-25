@@ -1,13 +1,13 @@
 import fs from 'fs'
 import path from 'path'
 import consola from 'consola'
-import { chainFn } from '@nuxt/utils'
+import { chainFn } from '@dovca/nuxt-utils'
 import ModuleContainer from '../src/module'
 
 jest.mock('hash-sum', () => src => `hash(${src})`)
 
-jest.mock('@nuxt/utils', () => ({
-  ...jest.requireActual('@nuxt/utils'),
+jest.mock('@dovca/nuxt-utils', () => ({
+  ...jest.requireActual('@dovca/nuxt-utils'),
   chainFn: jest.fn(() => 'chainedFn')
 }))
 

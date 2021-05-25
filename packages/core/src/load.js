@@ -1,4 +1,4 @@
-import { loadNuxtConfig } from '@nuxt/config'
+import { loadNuxtConfig } from '@dovca/nuxt-config'
 import Nuxt from './nuxt'
 
 const OVERRIDES = {

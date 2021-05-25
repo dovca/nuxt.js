@@ -4,7 +4,7 @@ import { defaultsDeep, pick, uniq } from 'lodash'
 import defu from 'defu'
 import consola from 'consola'
 import destr from 'destr'
-import { TARGETS, MODES, createRequire, guardDir, isNonEmptyString, isPureObject, isUrl, getMainModule, getPKG } from '@nuxt/utils'
+import { TARGETS, MODES, createRequire, guardDir, isNonEmptyString, isPureObject, isUrl, getMainModule, getPKG } from '@dovca/nuxt-utils'
 import { isRelative, joinURL, normalizeURL, withTrailingSlash } from 'ufo'
 import { defaultNuxtConfigFile, getDefaultNuxtConfig } from './config'
 
@@ -306,10 +306,10 @@ export function getNuxtConfig (_options) {
   if (Array.isArray(babelConfig.presets)) {
     const warnPreset = (presetName) => {
       const oldPreset = '@nuxtjs/babel-preset-app'
-      const newPreset = '@nuxt/babel-preset-app'
+      const newPreset = '@dovca/nuxt-babel-preset-app'
       if (presetName.includes(oldPreset)) {
         presetName = presetName.replace(oldPreset, newPreset)
-        consola.warn('@nuxtjs/babel-preset-app has been deprecated, please use @nuxt/babel-preset-app.')
+        consola.warn('@nuxtjs/babel-preset-app has been deprecated, please use @dovca/nuxt-babel-preset-app.')
       }
       return presetName
     }

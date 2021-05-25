@@ -18,10 +18,10 @@ import {
   isIndexFileAndFolder,
   scanRequireTree,
   TARGETS
-} from '@nuxt/utils'
+} from '@dovca/nuxt-utils'
 
-import { template as VueAppTemplate } from '@nuxt/vue-app'
-import { BundleBuilder as WebpackBuilder } from '@nuxt/webpack'
+import { template as VueAppTemplate } from '@dovca/nuxt-vue-app'
+import { BundleBuilder as WebpackBuilder } from '@dovca/nuxt-webpack'
 
 import Ignore from './ignore'
 import BuildContext from './context/build'
@@ -451,7 +451,7 @@ export default class Builder {
       // Modules & user provided templates
       // first custom to keep their index
       ...customTemplateFiles,
-      // @nuxt/vue-app templates
+      // @dovca/nuxt-vue-app templates
       ...templateContext.templateFiles
     ])
 

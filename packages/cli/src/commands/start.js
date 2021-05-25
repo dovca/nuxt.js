@@ -1,4 +1,4 @@
-import { TARGETS } from '@nuxt/utils'
+import { TARGETS } from '@dovca/nuxt-utils'
 import { common, server } from '../options'
 import { showBanner } from '../utils/banner'
 import { serve } from '../utils/serve'

@@ -1,5 +1,5 @@
 import { isRelative } from 'ufo'
-import { isUrl, urlJoin, safariNoModuleFix } from '@nuxt/utils'
+import { isUrl, urlJoin, safariNoModuleFix } from '@dovca/nuxt-utils'
 import SSRRenderer from './ssr'
 
 export default class ModernRenderer extends SSRRenderer {

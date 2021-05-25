@@ -1,4 +1,4 @@
-import { NuxtCommand, commands } from '@nuxt/cli'
+import { NuxtCommand, commands } from '@dovca/nuxt-cli'
 import consola from 'consola'
 
 describe('cli build', () => {

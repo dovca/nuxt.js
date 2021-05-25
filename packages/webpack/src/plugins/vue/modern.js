@@ -5,7 +5,7 @@
 
 import EventEmitter from 'events'
 import HtmlWebpackPlugin from 'html-webpack-plugin'
-import { safariNoModuleFix } from '@nuxt/utils'
+import { safariNoModuleFix } from '@dovca/nuxt-utils'
 
 const legacyTemplateTags = {}
 const legacyTemplateWatcher = new EventEmitter()

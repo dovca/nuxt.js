@@ -22,7 +22,7 @@ export default {
   },
   ignoreUnused: [
     // directly used by bin
-    '@nuxt/cli',
+    '@dovca/nuxt-cli',
     // discovered by config
     '@nuxt/telemetry',
     // vue-app externals for ssr
@@ -34,9 +34,9 @@ export default {
     'vue-router',
     'vuex',
     // Distro
-    '@nuxt/config',
-    '@nuxt/server',
-    '@nuxt/utils',
-    '@nuxt/vue-renderer'
+    '@dovca/nuxt-config',
+    '@dovca/nuxt-server',
+    '@dovca/nuxt-utils',
+    '@dovca/nuxt-vue-renderer'
   ]
 }

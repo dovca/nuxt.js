@@ -4,7 +4,7 @@ import { resolve } from 'path'
 import { remove } from 'fs-extra'
 import serveStatic from 'serve-static'
 import finalhandler from 'finalhandler'
-import { TARGETS } from '@nuxt/utils'
+import { TARGETS } from '@dovca/nuxt-utils'
 import { Builder, Generator, getPort, loadFixture, Nuxt, rp, listPaths, equalOrStartsWith } from '../utils'
 
 let port

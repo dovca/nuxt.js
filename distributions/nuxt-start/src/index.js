@@ -1,1 +1,1 @@
-export * from '@nuxt/core'
+export * from '@dovca/nuxt-core'

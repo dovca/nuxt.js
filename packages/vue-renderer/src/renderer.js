@@ -2,7 +2,7 @@ import path from 'path'
 import fs from 'fs-extra'
 import consola from 'consola'
 import { template } from 'lodash'
-import { TARGETS, isModernRequest, urlJoin, waitFor } from '@nuxt/utils'
+import { TARGETS, isModernRequest, urlJoin, waitFor } from '@dovca/nuxt-utils'
 import { normalizeURL } from 'ufo'
 import defu from 'defu'
 

@@ -1,6 +1,6 @@
 import path from 'path'
 import defu from 'defu'
-import { loadNuxtConfig as _loadNuxtConfig, getDefaultNuxtConfig } from '@nuxt/config'
+import { loadNuxtConfig as _loadNuxtConfig, getDefaultNuxtConfig } from '@dovca/nuxt-config'
 
 export async function loadNuxtConfig (argv, configContext) {
   const rootDir = path.resolve(argv._[0] || '.')

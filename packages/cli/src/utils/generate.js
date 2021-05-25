@@ -5,7 +5,7 @@ import crc32 from 'crc/lib/crc32'
 import consola from 'consola'
 import globby from 'globby'
 import destr from 'destr'
-import { TARGETS } from '@nuxt/utils'
+import { TARGETS } from '@dovca/nuxt-utils'
 
 export async function generate (cmd) {
   const nuxt = await getNuxt({ server: true }, cmd)

@@ -1,4 +1,4 @@
-import { requireModule } from '@nuxt/utils'
+import { requireModule } from '@dovca/nuxt-utils'
 
 export const importModule = (id) => {
   try {
@@ -11,8 +11,8 @@ export const importModule = (id) => {
   }
 }
 
-export const builder = () => importModule('@nuxt/builder')
-export const webpack = () => importModule('@nuxt/webpack')
-export const generator = () => importModule('@nuxt/generator')
-export const core = () => importModule('@nuxt/core')
-export const server = () => importModule('@nuxt/server')
+export const builder = () => importModule('@dovca/nuxt-builder')
+export const webpack = () => importModule('@dovca/nuxt-webpack')
+export const generator = () => importModule('@dovca/nuxt-generator')
+export const core = () => importModule('@dovca/nuxt-core')
+export const server = () => importModule('@dovca/nuxt-server')

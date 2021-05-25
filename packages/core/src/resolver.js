@@ -8,7 +8,7 @@ import {
   startsWithSrcAlias,
   isExternalDependency,
   clearRequireCache
-} from '@nuxt/utils'
+} from '@dovca/nuxt-utils'
 
 export default class Resolver {
   constructor (nuxt) {

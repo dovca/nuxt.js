@@ -1,7 +1,7 @@
 import path from 'path'
 import ExtractCssChunksPlugin from 'extract-css-chunks-webpack-plugin'
 
-import { wrapArray } from '@nuxt/utils'
+import { wrapArray } from '@dovca/nuxt-utils'
 
 import PostcssConfig from './postcss'
 import PostcssV8Config from './postcss-v8'

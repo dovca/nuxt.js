@@ -1,4 +1,4 @@
-import { TARGETS } from '@nuxt/utils'
+import { TARGETS } from '@dovca/nuxt-utils'
 import BuildContext from '../../src/context/build'
 
 describe('builder: buildContext', () => {

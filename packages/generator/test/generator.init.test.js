@@ -1,12 +1,12 @@
 import consola from 'consola'
 import fsExtra from 'fs-extra'
-import { flatRoutes, isString, isUrl, promisifyRoute } from '@nuxt/utils'
+import { flatRoutes, isString, isUrl, promisifyRoute } from '@dovca/nuxt-utils'
 
 import Generator from '../src/generator'
 import { createNuxt, hookCalls } from './__utils__'
 
 jest.mock('fs-extra')
-jest.mock('@nuxt/utils')
+jest.mock('@dovca/nuxt-utils')
 
 describe('generator: initialize', () => {
   beforeAll(() => {

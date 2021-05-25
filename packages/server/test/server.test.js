@@ -5,8 +5,8 @@ import consola from 'consola'
 import serveStatic from 'serve-static'
 import servePlaceholder from 'serve-placeholder'
 import launchMiddleware from 'launch-editor-middleware'
-import { determineGlobals, isUrl } from '@nuxt/utils'
-import { VueRenderer } from '@nuxt/vue-renderer'
+import { determineGlobals, isUrl } from '@dovca/nuxt-utils'
+import { VueRenderer } from '@dovca/nuxt-vue-renderer'
 
 import Server from '../src/server'
 import Listener from '../src/listener'
@@ -21,8 +21,8 @@ jest.mock('connect')
 jest.mock('serve-static')
 jest.mock('serve-placeholder')
 jest.mock('launch-editor-middleware')
-jest.mock('@nuxt/utils')
-jest.mock('@nuxt/vue-renderer')
+jest.mock('@dovca/nuxt-utils')
+jest.mock('@dovca/nuxt-vue-renderer')
 jest.mock('../src/listener')
 jest.mock('../src/context')
 jest.mock('../src/jsdom')

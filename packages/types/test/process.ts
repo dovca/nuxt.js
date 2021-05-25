@@ -1,6 +1,6 @@
 /**
  * Test extended type definitions of NodeJS Process interface
- * @nuxt/types/process.d.ts
+ * @dovca/nuxt-types/process.d.ts
  */
 
 process.browser = true

@@ -1,4 +1,4 @@
-// TODO: Refactor @nuxt/server related options into `server.js`
+// TODO: Refactor @dovca/nuxt-server related options into `server.js`
 
 export default () => ({
   bundleRenderer: {
