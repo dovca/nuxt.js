@@ -1,6 +1,6 @@
 {
   "name": "@dovca/nuxt-babel-preset-app",
-  "version": "2.15.7",
+  "version": "2.15.8",
   "description": "babel-preset-app for nuxt",
   "repository": "dovca/nuxt.js",
   "license": "MIT",
