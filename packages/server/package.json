@@ -1,6 +1,6 @@
 {
   "name": "@dovca/nuxt-server",
-  "version": "2.15.8",
+  "version": "2.15.9",
   "repository": "dovca/nuxt.js",
   "license": "MIT",
   "main": "dist/nuxt-server.js",
@@ -8,8 +8,8 @@
     "dist"
   ],
   "dependencies": {
-    "@dovca/nuxt-utils": "2.15.8",
-    "@dovca/nuxt-vue-renderer": "2.15.8",
+    "@dovca/nuxt-utils": "2.15.9",
+    "@dovca/nuxt-vue-renderer": "2.15.9",
     "@nuxtjs/youch": "^4.2.3",
     "compression": "^1.7.4",
     "connect": "^3.7.0",

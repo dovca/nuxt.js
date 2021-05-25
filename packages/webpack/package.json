@@ -1,6 +1,6 @@
 {
   "name": "@dovca/nuxt-webpack",
-  "version": "2.15.8",
+  "version": "2.15.9",
   "repository": "dovca/nuxt.js",
   "license": "MIT",
   "main": "dist/nuxt-webpack.js",
@@ -9,8 +9,8 @@
   ],
   "dependencies": {
     "@babel/core": "^7.14.0",
-    "@dovca/nuxt-babel-preset-app": "2.15.8",
-    "@dovca/nuxt-utils": "2.15.8",
+    "@dovca/nuxt-babel-preset-app": "2.15.9",
+    "@dovca/nuxt-utils": "2.15.9",
     "@nuxt/friendly-errors-webpack-plugin": "^2.5.1",
     "babel-loader": "^8.2.2",
     "cache-loader": "^4.1.0",

@@ -1,6 +1,6 @@
 {
   "name": "@dovca/nuxt-generator",
-  "version": "2.15.8",
+  "version": "2.15.9",
   "repository": "dovca/nuxt.js",
   "license": "MIT",
   "main": "dist/nuxt-generator.js",
@@ -8,7 +8,7 @@
     "dist"
   ],
   "dependencies": {
-    "@dovca/nuxt-utils": "2.15.8",
+    "@dovca/nuxt-utils": "2.15.9",
     "chalk": "^4.1.1",
     "consola": "^2.15.3",
     "defu": "^4.0.1",

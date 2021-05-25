@@ -1,6 +1,6 @@
 {
   "name": "@dovca/nuxt-builder",
-  "version": "2.15.8",
+  "version": "2.15.9",
   "repository": "dovca/nuxt.js",
   "license": "MIT",
   "main": "dist/nuxt-builder.js",
@@ -8,9 +8,9 @@
     "dist"
   ],
   "dependencies": {
-    "@dovca/nuxt-utils": "2.15.8",
-    "@dovca/nuxt-vue-app": "2.15.8",
-    "@dovca/nuxt-webpack": "2.15.8",
+    "@dovca/nuxt-utils": "2.15.9",
+    "@dovca/nuxt-vue-app": "2.15.9",
+    "@dovca/nuxt-webpack": "2.15.9",
     "@nuxt/devalue": "^1.2.5",
     "chalk": "^4.1.1",
     "chokidar": "^3.5.1",
